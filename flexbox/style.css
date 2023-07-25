@@ -1,0 +1,55 @@
+:root{
+    --white: #ffff
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: var(--white);
+}
+
+p{
+    margin: 0;
+    
+}
+
+.content{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1200rem;
+}
+
+.ex-1{
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+.ex-2{
+    background-color: bisque;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.squares{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5rem;
+}
+@media (min-width: 768px) {
+    .squares{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.square{
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+}
