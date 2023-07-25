@@ -1,0 +1,57 @@
+:root{
+    /** CSS variables*/
+    --mainColor: #aaa0a0ce;
+}
+
+html {
+    font-weight: 62.5%; /*In order to do that 1 rem = 10px*/
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--mainColor);
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+a:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+/* ? auxiliar*/
+
+.container{
+
+    max-width: 120rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: aqua;
+}
+
+.al-center{
+    text-align: center;
+    margin: 0 auto;
+}
