@@ -55,3 +55,18 @@ a:hover{
     text-align: center;
     margin: 0 auto;
 }
+.btn{
+    background-color: rebeccapurple;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 15rem;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+}
